@@ -2,7 +2,7 @@
 echo Starting Mall Management System...
 echo.
 echo ============================================
-echo Backend Server (Port 3000)
+echo Backend Server (Port 4000)
 echo ============================================
 start cmd /k "cd /d "%~dp0" && npm run dev:api"
 echo.
@@ -17,5 +17,5 @@ echo ============================================
 echo Both servers are starting...
 echo.
 echo Frontend: http://localhost:5173
-echo Backend API: http://localhost:3000
+echo Backend API: http://localhost:4000
 echo ============================================

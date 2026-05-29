@@ -22,7 +22,7 @@ export type AuthSession = {
 };
 
 const isLocalDev = typeof window !== 'undefined' && /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
-const apiBaseUrl = import.meta.env.VITE_API_URL || (isLocalDev ? 'http://localhost:3000/api' : '/api');
+const apiBaseUrl = import.meta.env.VITE_API_URL || (isLocalDev ? 'http://localhost:4000/api' : '/api');
 
 const api = axios.create({
   baseURL: apiBaseUrl,

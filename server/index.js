@@ -6,7 +6,7 @@ import { errorHandler } from './middleware/errorHandler.js';
 import { ensureForeignKeys, testConnection, seedDatabase } from './config/db.js';
 
 const app = express();
-const port = Number(process.env.PORT || 3000);
+const port = Number(process.env.PORT || 4000);
 
 app.use(
   cors({
